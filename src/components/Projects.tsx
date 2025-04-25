@@ -1,7 +1,8 @@
 import Portfolio from "../assets/Portfolio.png";
 import SpicyBites from "../assets/SpicyBites.png";
-import Youtube from "../assets/Youtube.png";
-import Webelite from "../assets/Webelite.png";
+
+import ai_trip_photo from "../assets/ai_trip_photo.jpg";
+import stackoverflow_image from "../assets/stackoverflow_image.jpg";
 import Cards from "./Cards";
 
 const Projects = () => {
@@ -13,25 +14,27 @@ const Projects = () => {
       live: "#",
       github: "https://github.com/charanbuchannola?tab=repositories",
     },
+
+    {
+      title: "AITripRideIn ",
+      desc: "AITripRideIn is a smart travel planner to create personalized trips, real-time chat support, and live route planning for a better travel experience.",
+      image: ai_trip_photo,
+      live: "#",
+      github: "https://github.com/charanbuchannola?tab=repositories",
+    },
+    {
+      title: "StackWave",
+      desc: " Full-stack developer platform combining a StackOverflow-style Q&A forum with real-time code collaboration.",
+      image: stackoverflow_image,
+      live: "#",
+      github: "https://github.com/charanbuchannola/institute-website",
+    },
     {
       title: "BuchannolaEats",
       desc: "Welcome to BuchannolaEats, where culinary excellence meets elegant ambiance in the heart of BuchannolaEats. Our restaurant offers a sophasticated dining experience.",
       image: SpicyBites,
       github:
         "https://github.com/charanbuchannola/BuchannolaEats_Project/tree/master",
-    },
-    {
-      title: "YouTube Clone",
-      desc: "A dynamic video-sharing platform designed for creators and viewers alike. Built with a user friendly interface.",
-      image: Youtube,
-      github: "https://github.com/charanbuchannola?tab=repositories",
-    },
-    {
-      title: "Webelite builder",
-      desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
-      image: Webelite,
-      live: "#",
-      github: "https://github.com/charanbuchannola/institute-website",
     },
   ];
 
