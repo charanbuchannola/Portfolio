@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../assets/Logoo.png";
+// import Logoo from "../assets/Logoo.png"; // Removed unused import
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
