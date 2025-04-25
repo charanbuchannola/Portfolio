@@ -18,15 +18,19 @@ const Hero = () => {
               <br />
               <span className="text-red-500 ">BuchannolaCharan</span>
             </h1>
-            <p className="md:text-2xl text-xl mb-4">Web Developer & Designer</p>
+            <p className="md:text-2xl text-xl mb-4">
+              Web Developer & Devops Enthusiast
+            </p>
             <p className="mb-4">
-              I'm a passionate web developer with expertise in React, Next.js,
-              and modern web technologies. I love creating beautiful and
-              functional website that solve real world problems.
+              Passionate Full-Stack Developer specializing in the MERN stack,
+              with expertise in building scalable, high-performance web
+              applications. I create smooth front-end experiences and reliable
+              back-end systems, often with real-time features. Always curious,
+              always building—turning ideas into real, working products.
             </p>
             <button className="bg-black text-white px-3 py-2 w-max rounded-md">
               <a
-                href="https://drive.google.com/file/d/1sdJPi8c-YwTpKsgvgXrSmqaN4f-72IV6/view?usp=drivesdk "
+                href="https://ik.imagekit.io/oobkirkqtj/charan_buchannola-resume.pdf?updatedAt=1745622337554"
                 download
                 target="_blank"
               >

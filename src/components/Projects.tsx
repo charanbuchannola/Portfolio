@@ -20,13 +20,13 @@ const Projects = () => {
       desc: "AITripRideIn is a smart travel planner to create personalized trips, real-time chat support, and live route planning for a better travel experience.",
       image: ai_trip_photo,
       live: "#",
-      github: "https://github.com/charanbuchannola?tab=repositories",
+      github: "https://github.com/charanbuchannola/AI_Trip_Planner",
     },
     {
       title: "StackWave",
       desc: " Full-stack developer platform combining a StackOverflow-style Q&A forum with real-time code collaboration.",
       image: stackoverflow_image,
-      live: "#",
+      live: "https://stackwave-project-frontend.onrender.com",
       github: "https://github.com/charanbuchannola/institute-website",
     },
     {

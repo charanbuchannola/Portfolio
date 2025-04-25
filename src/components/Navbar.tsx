@@ -26,12 +26,7 @@ const Navbar = () => {
             >
               Projects
             </a>
-            <a
-              href="#testimonials"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
-            >
-              Testimonials
-            </a>
+
             <a
               href="#contact"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
@@ -67,12 +62,7 @@ const Navbar = () => {
             >
               Project
             </a>
-            <a
-              href="#testimonials"
-              className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-            >
-              Testimonials
-            </a>
+
             <a
               href="#contact"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
