@@ -21,7 +21,9 @@ export default function Particle() {
       {init && (
         <Particles
           id="tsparticles"
-          _particlesLoaded={particlesLoaded}
+          // @ts-ignore
+
+          particlesLoaded={particlesLoaded}
           style={{
             zIndex: -1,
           }}
@@ -42,7 +44,7 @@ export default function Particle() {
                   enable: true,
                   mode: "repulse",
                 },
-                resize: true,
+                resize: {},
               },
               modes: {
                 push: {
@@ -78,7 +80,6 @@ export default function Particle() {
               number: {
                 density: {
                   enable: true,
-                  area: 800,
                 },
                 value: 160,
               },

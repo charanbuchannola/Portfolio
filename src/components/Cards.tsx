@@ -1,6 +1,14 @@
 import Github from "../assets/Github.png";
 
-const Cards = ({ item }) => {
+interface ItemProps {
+  image: string;
+  title: string;
+  desc: string;
+  live: string;
+  github: string;
+}
+
+const Cards = ({ item }: { item: ItemProps }) => {
   return (
     <div className="border border-red-500 rounded-lg w-[350px] lg:w-[400px] bg-red-50">
       <img src={item.image} alt="" className="rounded-lg" />

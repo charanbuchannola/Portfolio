@@ -47,13 +47,15 @@ const Testimonials = () => {
       </h1>
       <div className="max-w-6xl mx-auto py-10 px-5">
         <Swiper
-          style={{
-            "--swiper-pagination-color": "#EF4444",
-            "--swiper-pagination-bullet-inactive-color": "#999999",
-            "--swiper-pagination-bullet-inactive-opacity": "1",
-            "--swiper-pagination-bullet-size": "10px",
-            "--swiper-pagination-bullet-horizontal-gap": "6px",
-          }}
+          style={
+            {
+              "--swiper-pagination-color": "#EF4444",
+              "--swiper-pagination-bullet-inactive-color": "#999999",
+              "--swiper-pagination-bullet-inactive-opacity": "1",
+              "--swiper-pagination-bullet-size": "10px",
+              "--swiper-pagination-bullet-horizontal-gap": "6px",
+            } as React.CSSProperties
+          }
           pagination={{
             el: ".swiper-pagination",
             type: "bullets",
